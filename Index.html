@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrikiCaja</title>
+
+    <!-- Tipografía desde Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Framework CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="HOMEstyles.css">
+</head>
+<body>
+
+<!-- NAVBAR: Menú de navegación fijo superior -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <!-- Logo o nombre del sitio -->
+    <a class="navbar-brand" href="#">FRIKICAJA</a>
+    <!-- Botón para mostrar menú en mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Ítems del menú -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active text-white fw-bold" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="Detalle.html">Suscripciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Iniciar Sesion</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Registrarse</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- /NAVBAR -->
+
+
+
+<!-- HERO: Sección de portada con llamado a la acción -->
+<section class="pt-7 pb-0 bg-cover d-flex text-white" style="background-image: url('FrikiCaja2/Home/Fondos/Hero-fondo2.png');">
+  <div class="container mt-5">
+    <div class="row align-items-center">
+      
+      <!-- Texto principal -->
+      <div class="col-lg-6">
+        <h1 class="h1-custom">Tu universo coleccionable, <br>
+          <span class="texto-degrade">directo a tu puerta</span></h1>
+        <p class="p-custom">Cada mes, una caja exclusiva con figuras, cómics y sorpresas únicas para fans de la cultura Pop!</p>
+        <div class="d-flex gap-3 mt-4">
+         <a href="Detalle.html" class="btn btn-dark">Suscribite</a>
+        </div>
+      </div>
+
+      <!-- Imagen destacada -->
+      <div class="pt-7 pb-0 col-lg-6 d-flex align-items-end justify-content-center">
+        <img src="FrikiCaja2/Home/Fondos/Hero-persona.png" class="img-fluid img-rounded w-100" alt="Imagen Hero">
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+<!-- MARCAS: Logos de marcas asociadas -->
+<section class="bg-white shadow-sm py-1">
+    <div class="row justify-content-center align-items-center g-4">
+      <div class="col-6 col-md-2">
+        <img src="FrikiCaja2/Home/Logos/StarWars.png" alt="Marca 1" class="img-fluid brand-logo">
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="FrikiCaja2/Home/Logos/Marvel.png" alt="Marca 2" class="img-fluid brand-logo">
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="FrikiCaja2/Home/Logos/DC.png" alt="Marca 3" class="img-fluid brand-logo">
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="FrikiCaja2/Home/Logos/PlayStation.png" alt="Marca 4" class="img-fluid brand-logo">
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="FrikiCaja2/Home/Logos/HarryPotter.png" alt="Marca 5" class="img-fluid brand-logo">
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="FrikiCaja2/Home/Logos/Nintendo.png" alt="Marca 6" class="img-fluid brand-logo">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NOSOTROS -->
+<section class="section-spacing bg-cover text-white" style="background-image: url('FrikiCaja2/Home/Fondos/1.png');">
+  <div class="container mt-5">
+    <div class="row align-items-center">
+      <!-- Columna de imagen -->
+     <div class="col-lg-6 text-center mb-4 mb-lg-0">
+        <img src="FrikiCaja2/Home/Imagenes/Nosotros.png" class="img-fluid img-rounded w-100" alt="Imagen ilustrativa">
+      </div>
+     <!-- Columna de texto -->
+      <div class="col-lg-6">
+        <h2 class="h2-custom mb-2">¿Quiénes somos?</h2>
+        <p class="p-custom mb-5">No somos solo una simple suscripción...</p>
+        <p class="p1-custom mb-3">En un rincón del multiverso, hay un lugar donde los fans no <br>
+          solo coleccionan… <strong>se conectan.</strong> <br>
+        Por eso creamos la caja mensual que lleva tu fanatismo a <br>
+        otro nivel: figuras de edición limitada, cómics con portadas <br>
+        imposibles de conseguir y merchandising único.</p>
+        <a href="#" class="btn btn-dark mt-3">Saber más</a>
+      </div>
+    </div>
+  </div>  
+</section>
+
+<!-- COMO FUNCIONA -->
+<section class="section-spacing bg-cover text-center" style= "background-image: url('FrikiCaja2/Home/Fondos/2.png')">
+  <div class="container mt-5">
+    <h2 class="mb-2 text-uppercase fw-bold" class="h2-custom">¿Como funciona?</h2>
+    <p class="p-custom text-center mb-7">Recibi tu caja mensual en 3 simples pasos!</p>
+   <div class="row">
+      <!-- Beneficio 1 -->
+      <div class="col-md-4 mb-4">
+       <img src="FrikiCaja2/Home/Elementos/Numeros-09.png" class="rounded mb-4" alt="Item 1">
+        <h6>Electrónica mejorada</h6>
+        <p class="p1-custom">Nuestras baterías están diseñadas para durar más y brindar mayor eficiencia energética.</p>
+     </div>
+      <!-- Beneficio 2 -->
+      <div class="col-md-4 mb-4">
+        <img src="FrikiCaja2/Home/Elementos/Numeros-10.png" class="rounded mb-4" alt="Item 2">
+        <h6>Diseño ergonómico</h6>
+        <p class="p1-custom">Mayor comodidad en el uso prolongado sin comprometer el rendimiento.</p>
+      </div>
+     <!-- Beneficio 3 -->
+      <div class="col-md-4 mb-4">
+       <img src="FrikiCaja2/Home/Elementos/Numeros-11.png" class="rounded mb-4" alt="Item 3">
+        <h6>Motor optimizado</h6>
+        <p class="p1-custom">Más potencia y velocidad para trabajar con eficiencia como nunca antes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BENEFICIOS -->
+<section class="section-spacing text-white bg-cover" style="background-image: url('FrikiCaja2/Home/Fondos/3.png');">
+  <div class="container">
+    <h2 class="h2-custom text-uppercase-custom text-center mb-3">
+      CONOCÉ NUESTROS <span class="text-red">BENEFICIOS</span>
+    </h2>
+    <p class="p-custom text-center mb-5">Algunas de las razones por las que nuestra suscripción es la mejor!</p>
+    
+    <div class="row align-items-center">
+      
+      <!-- Imagen a la izquierda -->
+      <div class="col-md-5 text-center mb-4 mb-md-0 pe-md-5">
+        <img src="FrikiCaja2/Home/Imagenes/Beneficios.png" alt="Beneficios" class="img-fluid rounded-4">
+      </div>
+      
+      <!-- Beneficios a la derecha -->
+      <div class="col-md-7 ps-md-5">
+        <div class="row gy-4 gx-5">
+
+          <div class="col-md-6 d-flex">
+            <div>
+              <h6 class="fw-bold mb-2">Envíos internacionales</h6>
+              <p class="p1-custom">Tenés la posibilidad de envío a cualquier parte del multiverso en el que estés!</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex">
+            <div>
+              <h6 class="fw-bold mb-1">10% descuento</h6>
+              <p class="p1-custom">Descuento exclusivo en tiendas de <br>
+                cómics y gaming partners.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex">
+            <div>
+              <h6 class="fw-bold  mb-1">Merch exclusivo</h6>
+              <p class="p1-custom">Nuestros suscriptores reciben merch que no se consigue en ningún otro lado.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex">
+            <div>
+              <h6 class="fw-bold mb-1">GeekSwap acceso</h6>
+              <p class="p1-custom">Sistema de intercambio de piezas entre suscriptores a través de nuestra plataforma.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PLANES DE SUSCRIPCIÓN: Sección con 3 opciones destacadas -->
+<section class="section-spacing bg-cover text-center" style= "background-image: url('FrikiCaja2/Home/Fondos/4.png')">
+  <div class="container mt-5">
+    <h2 class="h2-custom mb-2">Nuestros Planes</h2>
+    <p class="p-custom">Elegí el plan que más se adapte a vos!</p>
+  
+    <div class="row mt-5">
+    
+     <!-- Card: Plan Básico -->
+     <div class="col-md-4 mb-4">
+       <div class="card p-4 h-100">
+          <!-- Título y precio -->
+          <h5 class="text-uppercase">Lite</h5>
+          <h3>$23.000<small>/ mes</small></h3>
+        
+          <!-- Imagen ilustrativa -->
+          <img src="FrikiCaja2/Home/Elementos/caja 1.png" class="img-fluid img-rounded my-3" alt="Plan Básico">
+
+         <!-- Descripción -->
+          <p class="p4-custom">Perfecto para empezar.<br><strong>Incluye:</strong></p>
+        
+         <!-- Lista de beneficios -->
+         <ul class="list-unstyled text-start mx-auto" style="max-width: 250px;">
+           <li>✔ Cómic con portada exclusiva</li>
+           <li>✔ Pin coleccionable</li>
+            <li>✔ Sticker Pack temático</li>
+            <li>✔ Acceso limitado a GeekSwap</li>
+            <li>✔ 5% de descuento en tiendas partners</li>
+         </ul>
+
+         <!-- Botón CTA -->
+         <a href="#" class="btn btn-dark mt-3">Elegir Lite</a>
+       </div>
+     </div>
+
+     <!-- Card: Plan Pro (Recomendado) -->
+      <div class="col-md-4 mb-4">
+       <div class="card p-4 h-100 border border-primary">
+          <!-- Título y precio -->
+          <h5>Plus <span class="badge bg-black text-lighter ms-2"> La + elegida</span></h5>
+         <h3>$30.000<small>/ mes</small></h3>
+        
+         <!-- Imagen ilustrativa -->
+         <img src="FrikiCaja2/Home/Elementos/caja 2.png" class="img-fluid img-rounded my-3" alt="Plan Pro">
+
+         <!-- Descripción -->
+         <p class="p4-custom">Ideal para quienes buscan más.<br><strong>Incluye:</strong></p>
+        
+          <!-- Lista de beneficios -->
+          <ul class="list-unstyled text-start mx-auto" style="max-width: 250px;">
+            <li>✔ Todo lo de Lite +</li>
+            <li>✔ Figura exclusiva (Funko Pop)</li>
+            <li>✔ Póster coleccionable</li>
+            <li>✔ Acceso completo a GeekSwap</li>
+           <li>✔ 10% de descuento en tiendas partners</li>
+          </ul>
+
+          <!-- Botón CTA -->
+         <a href="Detalle.html" class="btn btn-dark mt-3">Elegir Plus</a>
+        </div>
+      </div>
+
+     <!-- Card: Plan Full -->
+      <div class="col-md-4 mb-4">
+       <div class="card p-4 h-100">
+          <!-- Título y precio -->
+          <h5>Ultra</h5>
+         <h3>$45.000<small>/ mes</small></h3>
+        
+          <!-- Imagen ilustrativa -->
+          <img src="FrikiCaja2/Home/Elementos/caja 3.png" class="img-fluid img-rounded my-3" alt="Plan Full">
+
+          <!-- Descripción -->
+          <p class="p4-custom">La experiencia completa.<br><strong>Incluye:</strong></p>
+        
+          <!-- Lista de beneficios -->
+          <ul class="list-unstyled text-start mx-auto" style="max-width: 250px;">
+            <li>✔ Todo lo de Plus +</li>
+            <li>✔ 1 Ítem premium sorpresa</li>
+            <li>✔ Certificados de autenticidad</li>
+            <li>✔ Acceso sorteos mensuales</li>
+            <li>✔ Bonus Box sorpresa cada 6 meses</li>
+          </ul>
+
+          <!-- Botón CTA -->
+          <a href="#" class="btn btn-dark mt-3">Elegir Ultra</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- /PLANES DE SUSCRIPCIÓN -->
+
+<!-- GALERÍA: cajas anteriores -->
+<section class="section-spacing bg-cover text-center" style= "background-image: url('FrikiCaja2/Home/Fondos/5.png')">
+  <div class="container mt-5">
+    <h2 class="mb-2" class="h2-custom">CAJAS ANTERIORES</h2>
+    <p class="p-custom mb-5">Estos son algunos de los productos que vas a encontrar.</p>
+    <div id="carouselGaleriaC" class="carousel slide mb-7" data-bs-ride="carousel">
+     <div class="carousel-inner">
+       <!-- Slide 1 -->
+        <div class="carousel-item active">
+         <div class="d-flex justify-content-center gap-3 align-items-center">
+            <img src="FrikiCaja2/Home/Imagenes/Galeria-12.png" class="img-fluid rounded w-25" alt="Item 1">
+            <img src="FrikiCaja2/Home/Imagenes/Galeria-3.png" class="img-fluid rounded w-25" alt="Item 2">
+            <img src="FrikiCaja2/Home/Imagenes/Galeria-8.png" class="img-fluid rounded w-25" alt="Item 3">
+            <img src="FrikiCaja2/Home/Imagenes/Galeria-5.png" class="img-fluid rounded w-25" alt="Item 4">
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+         <div class="d-flex justify-content-center gap-3 align-items-center">
+           <img src="FrikiCaja2/Home/Imagenes/Galeria-6.png" class="img-fluid rounded w-25" alt="Item 6">
+            <img src="FrikiCaja2/Home/Imagenes/Galeria-7.png" class="img-fluid rounded w-25" alt="Item 7">
+           <img src="FrikiCaja2/Home/Imagenes/Galeria-1.png" class="img-fluid rounded w-25" alt="Item 8">
+           <img src="FrikiCaja2/Home/Imagenes/Galeria-4.png" class="img-fluid rounded w-25" alt="Item 9">
+          </div>
+        </div>
+      </div>
+      <!-- Controles -->
+      <div class="container px-4">
+        <div class="d-flex justify-content-center">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselGaleriaC" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon"></span>
+         </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselGaleriaC" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    <div class="mt-5 d-flex justify-content-center gap-3">
+     <a href="HOMEDETALLE.html" class="btn btn-dark text-uppercase">Quiero la mia!</a>
+    </div>
+  </div>
+</section>
+
+<!-- GEEKSWAP QUE ES -->
+<section class="section-spacing bg-cover text-center" style= "background-image: url('FrikiCaja2/Home/Fondos/6.png')">
+  <div class="container mt-5">
+    <h2 class="h2-custom mb-2">GEEKSWAP</h2>
+    <p class="p-custom mb-5">¿Como funciona?</p>
+      <div class="row align-items-center">
+      <!-- Columna de imagen -->
+        <div class="col-lg-6 text-center mb-4 mb-lg-0">
+        <img src="FrikiCaja2/Home/Imagenes/GeekSwap-01.png" class="img-fluid img-rounded" alt="Imagen ilustrativa">
+        </div>
+        <!-- Columna de texto -->
+        <div class="col-lg-6 text-start">
+        <h4 class="h4-custom">Intercambiá. Completá. Coleccioná.</h4>
+        <p class="p1-custom">GeekSwap es el sistema de intercambio exclusivo para suscriptores de Frikicaja. Si te tocó un ítem repetido o querés conseguir esa figura que te falta, podés conectarte con otros fanáticos y canjear de forma segura dentro de la comunidad. Solo necesitás tu tarjeta de acceso incluida en cada caja. </p>
+        </div>
+      </div>
+
+    <!-- GEEKSWAP APLICACION -->
+      <div class="row align-items-center mt-5">
+      <!-- Columna de texto -->
+        <div class="col-lg-6 text-start">
+          <h4 class="h4-custom">Descarga la app</h4>
+           <p class="p1-custom">Descarga la app de GeekSwap y tene acceso en cualquier lado para comunicarte con otros fanaticos y hacer el intercambio. Disponible en IOS y Android.</p>
+            <div class="d-flex gap-3 mt-4">
+              <a href="#" target="_blank">
+             <img src="FrikiCaja2/Home/Logos/AppStore.png" alt="App Store" height="65">
+              </a>
+              <a href="#" target="_blank">
+              <img src="FrikiCaja2/Home/Logos/GooglePlay.png" alt="Google Play" height="65">
+              </a>
+            </div>
+        </div>
+      <!-- Columna de imagen -->
+      <div class="col-lg-6 text-center mt-4 mt-lg-0">
+        <img src="FrikiCaja2/Home/Imagenes/GeekSwap-02.png" class="img-fluid img-rounded" alt="Imagen ilustrativa">
+      </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS: Servicios o funcionalidades -->
+<section class="section-spacing bg-cover text-center" style= "background-image: url('FrikiCaja2/Home/Fondos/7.png')">
+  <div class="container mt-5">
+    <h2 class="h2-custom mb-2">Testimonios</h2>
+    <p class="p-custom mb-5">Algunos comentarios de los miembros de la comunidad Friki</p>
+    <div class="row">
+     <!-- Cada columna es una tarjeta de servicio -->
+      <div class="col-md-4 mb-4">
+       <div class="card h-100 p-4">
+         <img src="FrikiCaja2/Home/Imagenes/test-1.png" class="mb-3" alt="Servicio">
+         <p class="p2-custom">★★★★★</p>
+         <h4>Fede, Buenos Aires</h4>
+         <p class="p3-custom">"Colecciono cómics hace años y esto es lo más cómodo y divertido que probé. 10/10."</p>
+        </div>
+      </div>
+      <!-- Cada columna es una tarjeta de servicio -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 p-4">
+          <img src="FrikiCaja2/Home/Imagenes/test-2.png" class="mb-3" alt="Servicio">
+          <p class="p2-custom">★★★★★</p>
+          <h4>Leo, Mendoza</h4>
+         <p class="p3-custom">"GeekSwap me salvó. Ya había perdido la esperanza de tener el funko de Harry Potter metalizado, y un usuario me lo cambió."</p>
+       </div>
+     </div>
+      <!-- Cada columna es una tarjeta de servicio -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 p-4">
+          <img src="FrikiCaja2/Home/Imagenes/test-3.jpg" class="mb-3" alt="Servicio">
+          <p class="p2-custom">★★★★☆</p>
+          <h4>Malena, Rosario</h4>
+          <p class="p3-custom">"Me encantó la sorpresa de este mes. Me vino de 10 el mouse pad para compu, ya tenia que cambiarlo.”</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /TESTIMONIOS -->
+
+<!-- CONTACT FORM: Formulario de contacto -->
+<section class="section-spacing bg-cover text-center" style= "background-image: url('FrikiCaja2/Home/Fondos/8.png')">
+  <div class="container mt-5">
+    <h2 class="h2-custom mb-2">Formulario de Contacto</h2>
+    <p class="p-custom mb-5">Envía un mensaje directamente desde la web.</p>
+   <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Tu nombre">
+          </div>
+          <div class="mb-3">
+           <input type="email" class="form-control" placeholder="Tu email">
+         </div>
+          <div class="mb-3">
+            <textarea class="form-control" rows="4" placeholder="Tu mensaje"></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark w-100">Enviar Mensaje</button>
+        </form>
+     </div>
+    </div>
+  </div>  
+</section>
+<!-- /CONTACT FORM -->
+
+<!-- FOOTER SIN FONDO Y CON MÁRGENES -->
+<footer class="footer-clean text-white pt-0 pb-3">
+  <div class="mx-custom px-0">
+    <div class="row text-start">
+
+     <hr class="border-secondary">
+      <!-- Columna 1 -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">INICIO</h6>
+        <ul class="list-unstyled mt-3">
+          <li>¿Cómo funciona?</li>
+          <li>Beneficios</li>
+          <li>GeekSwap</li>
+          <li>Nosotros</li>
+        </ul>
+      </div>
+
+      <!-- Columna 2 -->
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase">Suscripción</h6>
+        <ul class="list-unstyled mt-3">
+          <li>Planes</li>
+          <li>Contenido</li>
+          <li>Medios de pago</li>
+          <li>Datos</li>
+        </ul>
+      </div>
+
+      <!-- Columna 3 -->
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase">Mi cuenta</h6>
+        <ul class="list-unstyled mt-3">
+          <li>Mi suscripción</li>
+          <li>Darme de baja</li>
+          <li>Devoluciones</li>
+        </ul>
+      </div>
+
+      <!-- Columna 4 -->
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase">Contacto</h6>
+        <p class="p5-custom small mt-3 mb-1">frikicajasoporte@gmail.com</p>
+        <p class="p5-custom small mb-3">+54 9 11234567</p>
+        <div class="d-flex gap-3">
+          <i class="bi bi-instagram footer-icon"></i>
+          <i class="bi bi-facebook footer-icon"></i>
+          <i class="bi bi-twitter footer-icon"></i>
+          <i class="bi bi-twitch footer-icon"></i>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="border-secondary">
+
+    <div class="text-center small">
+      Términos &nbsp;·&nbsp; Privacidad &nbsp;·&nbsp; Cookies &nbsp;·&nbsp; Legal &nbsp;·&nbsp; Contacto
+    </div>
+  </div>
+</footer>
+
+<!-- FOOTER: Pie de página -->
+<footer class="text-center py-4">
+  <div class="container">
+    <p class="p-custom">© 2025 Belluccia 3 - Visible Template. Todos los derechos reservados.</p>
+  </div>
+</footer>
+<!-- /FOOTER -->
+
+
+<!-- Bootstrap Bundle JS (incluye Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+<!-- Script personalizado para cambiar el navbar al hacer scroll -->
+<script>
+window.addEventListener('scroll', function() {
+  const navbar = document.querySelector('.navbar');
+  navbar.classList.toggle('scrolled', window.scrollY > 50);
+});
+</script>
+
+<!-- Scripts adicionales -->
+<script src="scripts.js"></script>
+</body>
+</html>
